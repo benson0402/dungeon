@@ -2,7 +2,7 @@
 
 #include "inventory/item.hpp"
 
-class Consumable: public item {
+class Consumable: public Item {
 public:
     void Interact(Entity &entity) override;
 }

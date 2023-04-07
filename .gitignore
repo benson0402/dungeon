@@ -1,4 +1,7 @@
 *.o
 *.d
 *.exe
-.vscode
+.vscode/
+Doxyfile
+latex/
+html/
