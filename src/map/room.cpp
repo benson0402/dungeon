@@ -88,3 +88,22 @@ void Room::ShowRoomIcon() {
     std::cout << "B -> Room has boss" << std::endl;
     std::cout << "N -> Room has NPC" << std::endl;
 }
+
+void Room::Fight(int _atk, Element element) {
+    return;
+}
+
+int Room::FightBack() {
+    return 0;
+}
+Element Room::FightBackElement() {
+    return Element::NONE;
+}
+
+bool Room::IsDefeated() {
+    return 0;
+}
+
+void Room::ShowRoom() {
+    return;
+}

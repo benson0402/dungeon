@@ -33,11 +33,11 @@ public:
     ActionList BuildActionList(Stage stage);
     static void ShowRoomIcon();
 
-    virtual void Fight(int _atk, Element element) {}
-    virtual int FightBack() { return 0; }
-    virtual Element FightBackElement() { return Element::NONE; }
-    virtual bool IsDefeated() { return 0; }
-    virtual void ShowRoom() {}
+    virtual void Fight(int _atk, Element element);
+    virtual int FightBack();
+    virtual Element FightBackElement();
+    virtual bool IsDefeated();
+    virtual void ShowRoom();
 
 private:
     RoomType roomtype;

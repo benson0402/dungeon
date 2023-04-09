@@ -1,5 +1,5 @@
 CXX := g++
-CXXFLAGS := -std=c++14 -Wall -Wextra -O2 -MMD -MP 
+CXXFLAGS := -std=c++14 -Wall -Wextra -O2 -MMD -MP  -Wno-unused-parammeter
 INCLUDE := -Iinclude
 
 SRC_DIRS := ./src
