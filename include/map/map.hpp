@@ -6,11 +6,7 @@
 #include "base/actionlist.hpp"
 #include "map/room.hpp"
 
-<<<<<<< HEAD
 constexpr int kMapSize = 10;
-=======
-constexpr int kMapSize = 5;
->>>>>>> de721f871223e6c8f4dd50564e9b3c8d24812375
 constexpr int kMobRoomOdds = 40; // 0-100 %
 
 struct Location {

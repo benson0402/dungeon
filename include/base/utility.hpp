@@ -10,3 +10,5 @@ static std::mt19937 NumGen(time(0));
 int RngNum(int l, int r);
 
 std::string IntToString(int x);
+
+int StringToInt(std::string str);
