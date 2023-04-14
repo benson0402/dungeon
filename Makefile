@@ -1,5 +1,5 @@
 CXX := g++
-CXXFLAGS := -std=c++14 -Wall -Wextra -O2 -MMD -MP  -Wno-unused-parammeter
+CXXFLAGS := -std=c++14 -Wall -Wextra -O2 -MMD -MP -Wno-unused-parammeter 
 INCLUDE := -Iinclude
 
 SRC_DIRS := ./src
@@ -15,7 +15,7 @@ DUNGEON := dungeon.exe
 all: $(DUNGEON)
 
 $(DUNGEON): $(OBJS)
-	$(CXX) -o $@ $^ 
+	$(CXX) -o $@ $(CXXFLAGS) $^ 
 
 %.o: %.cpp
 	$(CXX) -o $@ $(CXXFLAGS) $(INCLUDE) $< -c 

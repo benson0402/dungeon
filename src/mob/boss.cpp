@@ -7,7 +7,7 @@
 Boss::Boss() {
     SetElementType(RngElement());
     SetHp(1000);
-    SetAtk(5);
+    SetAtk(100);
     SetDef(0);
 }
 

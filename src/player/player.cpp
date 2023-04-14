@@ -79,7 +79,6 @@ void Player::BeAttack(int _damage, Element element) {
         std::cout << ">>>> Get Bad Attack !" << std::endl;
         hurt /= kCounterAttack;
     }
-    hurt -= this->GetDef();
     if(hurt < 0)
         hurt = 0;  
     this->SetHp(this->GetHp() - hurt);

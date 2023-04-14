@@ -24,6 +24,7 @@ inline std::ostream& operator<<(std::ostream &os, Element element) {
         os << "NONE";
     return os;
 }
+
 // Randomly Choose Element
 inline Element RngElement() {
     int tmp = NumGen() % 3;
