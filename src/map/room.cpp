@@ -107,3 +107,12 @@ bool Room::IsDefeated() {
 void Room::ShowRoom() {
     return;
 }
+
+void Room::ShowRoomIcon() {
+    std::cout << "[Minimap Icon]" << std::endl;
+    std::cout << "* -> Room is blocked" << std::endl;
+    std::cout << "_ -> Room is empty" << std::endl;
+    std::cout << "M -> Room has mob" << std::endl;
+    std::cout << "B -> Room has boss" << std::endl;
+    std::cout << "N -> Room has NPC" << std::endl;
+}
